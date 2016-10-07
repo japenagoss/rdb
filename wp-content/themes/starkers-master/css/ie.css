@@ -1,0 +1,294 @@
+/*
+	Estilos generales
+	Developer JP
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body{
+	background-image:url(imagenes/light_toast.png);
+}
+
+
+.contenedor_general{
+	width:1000px;
+	margin:auto;
+	color:#242424;
+}
+
+/*
+	Fuentes
+*/
+
+@font-face {
+	font-family: "myriad-pro-regular"; 
+	src: url(../fuentes/MyriadWebPro.eot);
+} 
+
+@font-face {
+	font-family: "HelveticaNeueLTStd-Lt"; 
+	src: url(../fuentes/HelveticaNeueLt.eot);
+}
+
+.font_myriad_web_pro{
+	font-family:"myriad-pro-regular";
+}
+
+.font_helvetica_neueltstd{
+	font-family:"HelveticaNeueLTStd-Lt";
+}
+
+.font_myriad_pro_italic{
+	font-family:"myriad_web_pro_italic";
+}
+
+/*
+	Estilos de Menú
+	Developer JP
+*/
+
+.menu_principal{
+	height:81px;
+	margin:auto;
+	width:1000px;
+	background-color:#FFF;
+}
+
+.contenedor_menu_principal{
+	background-color:#FFF;
+	width:100%;
+	height:83px;
+	z-index:2000;
+	position:fixed;
+}
+
+.logo{
+	margin-top: 2px;
+	margin-left: 12px;
+	width:171px;
+}
+
+.div_sombra_2{
+	margin:auto;
+	width:502px;
+	margin-top:80px;
+}
+
+.div_sombra{
+	margin:auto;
+	width:502px;
+}
+
+.menu_main{
+	float:right;
+	margin-top:-73px;
+}
+
+.menu_main ul li{
+	list-style:none;
+	float:left;
+	margin-left:40px;
+}
+
+.menu_main ul li a{
+	text-decoration:none;
+	color:#242424;
+	font-size:17px;
+}
+
+.content_img_menu{
+	text-align:center;
+}
+
+/*
+ Estilo del slide
+*/
+.contenedor_bxslider{
+	width:1000px;
+	margin:auto;
+}
+
+.back_gris_header{
+	width:100%;
+	background-color:#404041;
+	position:relative;
+	top:81px;
+}
+
+/*
+	Estilos de contenedor del home
+*/
+
+.contenedor_home{
+	position:relative;
+	top:20px;
+}
+
+.div_center{
+	margin:auto;
+}
+
+.nuestra_compania{
+	width:300px;
+	text-align:center;
+	font-size:12px;
+	font-family:"myriad_web_pro_italic";
+	margin-bottom:60px;
+}
+
+.nuestra_compania img{
+	margin-bottom:25px;
+}
+
+.contenedor_items_nuestra_compania{
+	width:1000px;
+	font-family:"myriad-pro-regular";
+	text-align:center;
+}
+
+.item_nuestra_compania{
+	width:309px;
+	float:left;
+	padding:12px;
+}
+
+.item_nuestra_compania img,h2,p{
+	margin-bottom:20px;
+}
+
+.item_nuestra_compania h2{
+	font-size:20px;
+}
+
+.item_nuestra_compania p{
+	text-align:justify;
+}
+
+.item_nuestra_compania a{
+	text-decoration:none;
+	color:#242424;
+}
+
+.item_nuestra_compania{
+	margin-bottom:20px;
+	font-size:15px;
+}
+
+.clear_float{
+	clear:left;
+}
+
+.div_herramientas{
+	text-align:center;
+	position:relative;
+	top:120px;
+}
+
+.parrafo_herramientas{
+	width:318px;
+	text-align:left;
+	position:absolute;
+	left:12px;
+}
+
+.div_herramientas > h2{
+	font-size:20px;
+}
+
+.parrafo_herramientas h2{
+	font-size:30px;
+	letter-spacing:3px;
+}
+
+.animacion_herramientas{
+	position: absolute;
+	left: 360px;
+	border:#999 solid 1px;
+}
+
+.animacion_herramientas > img{
+	position:absolute;
+}
+
+.div_sombra_3{
+	position:relative;
+	left:235px;
+	clear:left;
+	top:100px;
+}
+
+.animacion_herramientas_pasos{
+	width:335px;
+	height:335px;
+	position:absolute;
+	z-index:2;
+	text-align:left;
+}
+
+.animacion_herramientas_pasos img{
+	position:absolute;
+	display:none;
+}
+
+.animacion_herramientas_pasos .paso_1{
+	left: 135px;
+	top: 291px;
+}
+
+.animacion_herramientas_pasos .paso_2{
+	left: 10px;
+	top: 257px;
+}
+
+.animacion_herramientas_pasos .paso_3{
+	left: -19px;
+	top: 127px;
+}
+
+.animacion_herramientas_pasos .paso_4{
+    left: 99px;
+	top: 37px;
+}
+
+.animacion_herramientas_pasos .paso_5{
+	left: 234px;
+	top: 110px;
+}
+
+.animacion_herramientas_pasos .siguiente_1{
+    left: 79px;
+	top: 310px;
+}
+
+.animacion_herramientas_pasos .siguiente_2{
+    top: 194px;
+	left: -5px;
+}
+
+.animacion_herramientas_pasos .siguiente_3{
+    left: 25px;
+	top: 69px;
+}
+
+.animacion_herramientas_pasos .siguiente_4{
+    left: 177px;
+	top: 65px;
+}
+
+
